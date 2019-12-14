@@ -1,12 +1,10 @@
 @echo off
 
-REM ========================================
-REM NETTOYAGE ET DEFRAGMENTATION DES DISQUES
-REM ========================================
+TITLE "NETTOYAGE ET DEFRAGMENTATION DES DISQUES ¬© Henri"
 
-REM ‡ exÈcuter en administrateur
+REM √† ex√©cuter en administrateur
 REM il faut au moins 15% d'espace libre sur chaque disque
-REM ne pas dÈfragmenter rÈguliËrement les disques SSD
+REM ne pas d√©fragmenter r√©guli√®rement les disques SSD
 
 REM =========================
 REM SECTION NETTOYAGE DISQUES
@@ -19,16 +17,16 @@ echo.
 REM OPTIONS DE cleanmgr UTILISEES:
 
 REM /D C => nettoie le disque C:
-REM /sageset:65535 => affiche la boÓte de dialogue RÈglages du nettoyage de disque
-REM et crÈe Ègalement une clÈ de Registre pour stocker les paramËtres sÈlectionnÈs
-REM c'est-‡-dire le profil stockant ces valeurs
-REM Le profil N∞ 65535 est stockÈe dans le Registre et permet de spÈcifier des t‚ches
-REM de nettoyage de disque exÈcuter ensuite
+REM /sageset:65535 => affiche la bo√Æte de dialogue R√©glages du nettoyage de disque
+REM et cr√©e √©galement une cl√© de Registre pour stocker les param√®tres s√©lectionn√©s
+REM c'est-√†-dire le profil stockant ces valeurs
+REM Le profil N¬∞ 65535 est stock√©e dans le Registre et permet de sp√©cifier des t√¢ches
+REM de nettoyage de disque ex√©cuter ensuite
 
-REM /sagerun:65535 => exÈcute les t‚ches spÈcifiÈes qui sont affectÈes ‡ la valeur
-REM du profil N∞65535 (si líoption /sageset a ÈtÈ utilisÈe prÈcÈdemment)
-REM Tous les lecteurs de líordinateur sont ÈnumÈrÈs et le profil sÈlectionnÈ
-REM est exÈcutÈ sur chaque lecteur
+REM /sagerun:65535 => ex√©cute les t√¢ches sp√©cifi√©es qui sont affect√©es √† la valeur
+REM du profil N¬∞65535 (si l‚Äôoption /sageset a √©t√© utilis√©e pr√©c√©demment)
+REM Tous les lecteurs de l‚Äôordinateur sont √©num√©r√©s et le profil s√©lectionn√©
+REM est ex√©cut√© sur chaque lecteur
 
 cleanmgr /D C /sageset:65535 & cleanmgr /D C /sagerun:65535
 
@@ -39,9 +37,9 @@ REM ===============================
 
 REM OPTIONS DE DEFRAG UTILISEES :
 
-REM /C dÈfragmente tous les disques
-REM /U affiche l'Ètat d'avancement
-REM /X effectue une consolidation de líespace libre
+REM /C d√©fragmente tous les disques
+REM /U affiche l'√©tat d'avancement
+REM /X effectue une consolidation de l‚Äôespace libre
 
 echo.
 echo Patientez... Defragmentation disque en cours...
@@ -49,5 +47,5 @@ echo.
 defrag /C /U /X
 echo.
 
-REM attend de presser une touche pour fermer la fenÍtre :
+REM attend de presser une touche pour fermer la fen√™tre :
 pause
