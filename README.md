@@ -6,7 +6,7 @@
 
 * A exécuter en mode administrateur.
 
-* Configurer les lettres des lecteurs dans le script avant le 1er lancement.
+* Avant le 1er lancement du script, préciser les lettres des lecteurs.
 
 * Testé sous Windows Seven Edition familiale.
 
