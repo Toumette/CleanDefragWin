@@ -10,8 +10,7 @@
 
 * Testé sous Windows Seven Edition familiale.
 
-_Ce cript, volontairement "sur-commenté", est destiné aux débutants en scripting._
+_Ce cript, volontairement "sur-commenté", est destiné aux débutants en scripting BAT._
 
 ---
-
 _© Henri 11/12/19_
