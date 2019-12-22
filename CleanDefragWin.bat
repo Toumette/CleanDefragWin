@@ -4,14 +4,14 @@ TITLE "NETTOYAGE ET DEFRAGMENTATION DES DISQUES © Henri"
 
 REM à exécuter en administrateur
 REM il faut au moins 15% d'espace libre sur chaque disque
-REM ne pas défragmenter régulièrement les disques SSD
+REM NB : ne pas défragmenter régulièrement les disques SSD
 
 REM =========================
 REM SECTION NETTOYAGE DISQUES
 REM =========================
 
 echo.
-echo Patientez... Nettoyage disque en cours...
+echo Patientez... Nettoyage disques en cours...
 echo.
 
 REM OPTIONS DE cleanmgr UTILISEES:
@@ -42,10 +42,10 @@ REM /U affiche l'état d'avancement
 REM /X effectue une consolidation de l’espace libre
 
 echo.
-echo Patientez... Defragmentation disque en cours...
+echo Patientez... Defragmentation disques en cours...
 echo.
 defrag /C /U /X
 echo.
 
-REM attend de presser une touche pour fermer la fenêtre :
+REM la commande "pause" permet d'attendre l'action sur une touche quelconque pour fermer la fenêtre :
 pause
