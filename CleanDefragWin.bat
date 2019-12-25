@@ -4,7 +4,7 @@ TITLE "NETTOYAGE ET DEFRAGMENTATION DES DISQUES © Henri"
 
 REM à exécuter en administrateur
 REM il faut au moins 15% d'espace libre sur chaque disque
-REM NB : ne pas défragmenter régulièrement les disques SSD
+REM NB : ne pas défragmenter les disques SSD
 
 REM =========================
 REM SECTION NETTOYAGE DISQUES
