@@ -8,7 +8,7 @@
 
 * Avant le 1er lancement du script, préciser les lettres des lecteurs.
 
-* Ne pas défragmenter régulièrement les disques SSD.
+* Ne pas défragmenter les disques SSD.
 
 * Testé sous Windows Seven Edition familiale premium.
 
