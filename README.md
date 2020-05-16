@@ -13,5 +13,5 @@
 * Testé sous Windows Seven Edition familiale premium.
 
 ---
-_Ce cript, volontairement "sur-commenté", s'adresse aux débutants en scripting BAT._
+_Ce script, volontairement "sur-commenté", s'adresse aux débutants en scripting BAT._
 _© Henri 11/12/19_
