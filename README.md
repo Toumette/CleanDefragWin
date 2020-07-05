@@ -14,4 +14,5 @@
 
 ---
 _Ce script, volontairement "sur-commenté", s'adresse aux débutants en scripting BAT._
-_© Henri 11/12/19_
+
+_© Henri 11/12/19 - Plus d'informations : https://henri.nitnoc.me_
